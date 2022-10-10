@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  width: 100%;
+  position: fixed;
+}
+
+.header_wrapper {
+  width: 80%;
+  display: grid;
+  grid-template-rows: 53px;
+  grid-template-columns: auto auto 1fr auto auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 740px) {
+  .header_wrapper {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+.header_logo {
+  font-family: "Cinzel", serif;
+  width: 170px;
+  font-size: 23px;
+}
+
+.header_opentv {
+  color: gray;
+  width: 80px;
+  font-size: 14px;
+}
+
+.header_search {
+  margin-right: 15px;
+}
+
+.header_search input {
+  width: 180px;
+  height: 30px;
+  padding-left: 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  color: white;
+  border: 2px solid gray;
+  background-color: black;
+}
+
+.header_login button {
+  width: 80px;
+  height: 30px;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: blue;
+  border-style: none;
+  color: white;
+  font-size: 14px;
+}
+
+.header_login button:hover {
+  cursor: pointer;
+}
