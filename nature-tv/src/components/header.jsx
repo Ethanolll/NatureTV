@@ -8,6 +8,7 @@ export default function Header() {
         <div className="header_logo">natureTV</div>
         <div className="header_opentv">
           <span>TV 열기</span>
+          <span>↗</span>
         </div>
         <div className="header_empty"></div>
         <div className="header_search">

@@ -6,7 +6,7 @@
 }
 
 .header {
-  background-color: black;
+  background-color: pink;
   color: white;
   width: 100%;
   position: fixed;
@@ -32,13 +32,18 @@
 .header_logo {
   font-family: "Cinzel", serif;
   width: 170px;
-  font-size: 23px;
+  font-size: 28px;
 }
 
 .header_opentv {
   color: gray;
   width: 80px;
   font-size: 14px;
+}
+
+.header_opentv span:last-child {
+  margin-left: 5px;
+  font-size: 12px;
 }
 
 .header_search {
@@ -52,16 +57,16 @@
   border-radius: 8px;
   font-size: 16px;
   color: white;
-  border: 2px solid gray;
-  background-color: black;
+  border: 2px solid white;
+  background-color: pink;
 }
 
 .header_login button {
   width: 80px;
   height: 30px;
-  padding: 8px;
+  padding: 7px;
   border-radius: 8px;
-  background-color: blue;
+  background-color: #bbbb;
   border-style: none;
   color: white;
   font-size: 14px;
