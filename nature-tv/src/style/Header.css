@@ -33,12 +33,22 @@
   font-family: "Cinzel", serif;
   width: 170px;
   font-size: 28px;
+  user-select: none;
+}
+
+.header_logo:hover {
+  cursor: pointer;
 }
 
 .header_opentv {
   color: gray;
   width: 80px;
   font-size: 14px;
+  user-select: none;
+}
+
+.header_opentv:hover {
+  cursor: pointer;
 }
 
 .header_opentv span:last-child {
