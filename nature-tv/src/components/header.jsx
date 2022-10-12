@@ -1,5 +1,5 @@
 import React from "react";
-import "/Users/nature/Desktop/natureTv/nature-tv/src/style/Header.css";
+import "../style/Header.css";
 
 export default function Header() {
   return (

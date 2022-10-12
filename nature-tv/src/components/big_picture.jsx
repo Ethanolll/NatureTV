@@ -1,11 +1,13 @@
 import React from "react";
-import "/Users/nature/Desktop/natureTv/nature-tv/src/style/big_picture.css";
-import main from "/Users/nature/Desktop/natureTv/nature-tv/src/img/main.jpg";
+import "../style/big_picture.css";
 
-export default function Header() {
+const IMG_BASE_URL = "https://image.tmdb.org/t/p/w1280"
+
+export default function big_picture({poster_path}) {
   return (
-    <div className="main">
-      <div className="main_photo">
+    <div>
+       <div className="main">
+      <div className="main_photo"></div>
         <div className="main_text">
           <h1>
             모든 Original
@@ -20,12 +22,19 @@ export default function Header() {
             <button className="free_button">무료 체험 시작</button>
             <div className="free_text">7일 무료 체험 후 월 ₩6,500</div>
           </div>
-        </div>
+        </div>    
+        
         <div className="main_movie">
           <div className="main_movie_text">Featured</div>
-          <div className="main_movie_photo"></div>
+          <div className="main_movie_photo_box">
+          </div>
         </div>
-      </div>
+    </div>
+   
+          
+              <img src={IMG_BASE_URL + poster_path}/>
     </div>
   );
 }
+
+// 디브 백 
