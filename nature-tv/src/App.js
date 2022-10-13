@@ -6,15 +6,7 @@ function App() {
     <div>
       <div>
         <Header />
-        {
-          dummy.results.map((item) => {
-            return (
-              <BigPicture
-              poster_path={item.poster_path}
-              />
-            )
-          })
-        }
+        <BigPicture dummy={dummy} />
       </div>
     </div>
   );

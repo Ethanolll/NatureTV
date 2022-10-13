@@ -1,12 +1,10 @@
 .main {
   width: 100%;  
-
-  /* display: flex;
-  justify-content: center; */
 }
 
 .main_photo {
-  width: 108em;
+  /* position: absolute; */
+  width: 115em;
   height: 800px;
   margin: 0 auto;
   background-image: url("../img/main.jpg");
@@ -14,6 +12,7 @@
 }
 
 .main_text {
+  /* position: absolute; */
   color: white;
   width: 300px;
   padding: 0 40px;
@@ -50,6 +49,10 @@
   color: #dddd;
 }
 
+.main_movie {
+  position: absolute;
+}
+
 .main_movie_text {
   color: white;
   margin-top: 35px;
@@ -70,14 +73,19 @@
 
 .main_movie_photo div {
   margin-top: 20px;
-  /* border: 1px solid black; */
   height: 150px;
 }
 
+.main_movie_photo_box {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 24px;
+  padding-left: 33px;
+  padding-top: 15px;
+}
+
 img {
-  width: 253px;
-  /* height: 150px; */
+  width: 275px;
   object-fit:contain;
   border-radius: 10px;
-
-}
+} 
