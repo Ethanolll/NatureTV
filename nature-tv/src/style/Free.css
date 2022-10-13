@@ -1,0 +1,8 @@
+.free_main {
+  margin: 38px 38px;
+}
+
+.free_main_movie_box {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}

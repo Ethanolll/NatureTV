@@ -1,5 +1,5 @@
 .main {
-  width: 100%;  
+  width: 100%;
 }
 
 .main_photo {
@@ -40,6 +40,10 @@
   border-style: none;
   font-size: 15px;
   font-weight: 500;
+}
+
+.free .free_button:hover {
+  cursor: pointer;
 }
 
 .free .free_text {
@@ -86,6 +90,6 @@
 
 img {
   width: 275px;
-  object-fit:contain;
+  object-fit: contain;
   border-radius: 10px;
-} 
+}
