@@ -4,10 +4,11 @@
 
 .main_photo {
   /* position: absolute; */
-  width: 115em;
-  height: 800px;
+  width: 120em;
+  height: 1000px;
   margin: 0 auto;
-  background-image: url("../img/main.jpg");
+  background-color: #251B37;
+  /* background-image: url("../img/main.jpg"); */
   object-fit: cover;
 }
 
@@ -15,7 +16,7 @@
   /* position: absolute; */
   color: white;
   width: 300px;
-  padding: 0 40px;
+  padding: 100px 78px;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -55,6 +56,8 @@
 
 .main_movie {
   position: absolute;
+  padding: 0 40px;
+
 }
 
 .main_movie_text {
@@ -67,7 +70,6 @@
 }
 
 .main_movie_photo {
-  /* margin: 0 auto; */
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   width: 97%;

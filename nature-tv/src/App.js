@@ -1,6 +1,8 @@
 import Header from "./components/header";
 import BigPicture from "./components/big_picture";
 import { dummy } from "./dummy";
+import { dummy1 } from "./dummy1";
+
 import Free from "./components/Free";
 function App() {
   return (
@@ -8,7 +10,7 @@ function App() {
       <div>
         <Header />
         <BigPicture dummy={dummy} />
-        <Free dummy={dummy} />
+        <Free dummy1={dummy1} />
       </div>
     </div>
   );

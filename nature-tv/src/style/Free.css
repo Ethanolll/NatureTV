@@ -1,8 +1,45 @@
 .free_main {
   margin: 38px 38px;
+  width: 115em;
+  display: flex;
+  flex-direction: column;
+  /* margin: 0 auto; */
+  margin: 0 auto;
 }
+
+.free_main_text {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+/* .free_main_movie {
+  padding-left: 3px;
+  padding-right: 3px;
+} */
 
 .free_main_movie_box {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  /* padding-left: 40px;
+  padding-right: 40px; */
+}
+
+.free_main_movie_box_box_img {
+  width: 340px;
+  box-shadow: 1px 5px 5px 0.5px #bbbb;
+}
+
+.free_main_movie_box_box_text {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.free_main_movie_box_box_ex {
+  width: 330px;
+  color: #0000008F;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12px;
 }
