@@ -4,10 +4,10 @@
 
 .main_photo {
   /* position: absolute; */
-  width: 120em;
+  width: 96em;
   height: 1000px;
   margin: 0 auto;
-  background-color: #251B37;
+  background-color: #251b37;
   /* background-image: url("../img/main.jpg"); */
   object-fit: cover;
 }
@@ -16,7 +16,7 @@
   /* position: absolute; */
   color: white;
   width: 300px;
-  padding: 100px 78px;
+  padding: 100px 50px;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -55,9 +55,9 @@
 }
 
 .main_movie {
-  position: absolute;
-  padding: 0 40px;
-
+  /* position: absolute; */
+  /* width: 80%; */
+  padding: 0 10px;
 }
 
 .main_movie_text {
@@ -72,9 +72,7 @@
 .main_movie_photo {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  width: 97%;
   grid-column-gap: 30px;
-  padding-left: 32px;
 }
 
 .main_movie_photo div {
@@ -85,13 +83,13 @@
 .main_movie_photo_box {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-column-gap: 24px;
+  grid-column-gap: 1px;
   padding-left: 33px;
   padding-top: 15px;
 }
 
 img {
-  width: 275px;
+  width: 210px;
   object-fit: contain;
   border-radius: 10px;
 }
